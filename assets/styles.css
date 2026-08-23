@@ -1,0 +1,46 @@
+/* Main background and font styling */
+.main {
+    background-color: #f8fafc;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom Card Container */
+div.stMetric, .card-container {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Headers customization */
+h1, h2, h3 {
+    color: #0f172a;
+    font-weight: 600;
+}
+
+/* Sidebar styling */
+[data-testid="stSidebar"] {
+    background-color: #0f172a;
+    color: #ffffff;
+}
+
+[data-testid="stSidebar"] .stMarkdown {
+    color: #cbd5e1;
+}
+
+/* Custom Buttons */
+.stButton>button {
+    background-color: #6366f1;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.stButton>button:hover {
+    background-color: #4f46e5;
+    color: white;
+}
